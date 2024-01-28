@@ -6,10 +6,12 @@ function Alert(props) {
         return lower.charAt(0).toUpperCase() + lower.slice(1);
     } 
     return (
-  props.alert && <div class={`alert alert-${props.alert.type} d-flex align-items-center`} role="alert">
+ <div style={{height:'50px'}}>
+  { props.alert && <div class={`alert alert-${props.alert.type} d-flex align-items-center`} role="alert">
   <strong>{capatilise(props.alert.type)}</strong> :{props.alert.message}
   
-</div>
+</div>}
+      </div>
   )
 }
 
