@@ -29,7 +29,7 @@ function App() {
  <Alert alert={alert}/>
     <div className="container">
    
-    <TextForm showAlert={showAlert} heading="This is Heading"/>
+    <TextForm showAlert={showAlert} heading="Enter the text below to analyze"/>
     </div>
     
    
